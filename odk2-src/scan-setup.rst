@@ -3,41 +3,36 @@ ODK Scan Setup
 
 .. _scan-setup:
 
-Before using ODK Scan, you will already need:
+.. contents:: :local:
+
+.. _scan-architect-prereqs:
+
+Prerequisites
+---------------------
+
+Before setting up ODK Scan, you will need:
 
   - :doc:`services-intro`
   - :doc:`survey-intro`
   - :doc:`tables-intro`
   - :doc:`app-designer-intro`
 
-.. _scan-installing:
+If you have not installed Scan already, follow our guide for :ref:`scan-installing`
 
-Installing Scan
------------------------
+.. _scan-setup-transferring-template:
 
-.. warning::
+Transferring a Form Template to the App
+------------------------------------------
 
-  ODK Scan is only compatible with Android versions 4.4 or newer.
+ODK Scan works with machine readable forms created using the :doc:`scan-form-designer-intro`. Refer to the :doc:`scan-form-designer-using` for instructions on how to create these forms.
 
-To install the apk:
+After creating a form with Form Designer, you'll have generated the machine readable files. To push them to your device, you will use the same mechanism that is used to push Survey and Tables files to the device.
 
-  1. From your device's :guilabel:`Settings`, choose :menuselection:`Security`.
+  #. Create a form using the ODK Scan Form Designer. Save that form with the :guilabel:`Save to File System` option.
+  #. Follow the instructions in the :ref:`Application Designer Guide <app-designer-common-tasks-move-to-device>` to push updates to the device. These describe pushing Survey files, but they will push Scan files to the device too with the same procedure.
+  #. To confirm that the *[your_form]* template has been successfully been transferred, open the ODK Scan app on your device and go to :guilabel:`Settings` (the wheel icon) and select :menuselection:`Templates to Use`. The folder name should appear in the list of templates.
 
-    - Make sure *Unknown Sources* is checked.
-    - (On older versions of Android, this setting is in :menuselection:`Applications` rather than :menuselection:`Security`)
+.. image:: /img/scan-setup/scan-template-list.*
+  :alt: Example list of Scan templates
+  :class: device-screen-vertical
 
-  2. Open a web browser on your phone.
-  3. Navigate to https://opendatakit.org/downloads/download-category/scan/ and download the ODK Scan APK.
-  4. In the download window, you will see ODK_Scan.N.N.apk. - Select it to download the file.
-
-    - On older devices, the APK will automatically install after you approve the security settings.
-    - On newer devices, you must go to the download list, rename the file to restore the .apk extension (the extension will have been renamed to .man during the download process), then click on it to install it.
-
-.. note::
-  You can also `download the ODK Scan APK <https://opendatakit.org/downloads/download-category/scan/>`_ to your computer and load it on your device via `adb <https://developer.android.com/studio/command-line/adb.html>`_ or another tool like `AirDroid <https://www.howtogeek.com/105813/control-your-android-from-a-browser-with-airdroid/>`_.
-
-.. note::
-  To synchronize your data with the cloud you will also need an ODK Cloud Endpoint.
-
-.. note::
-  Before scanning you'll first need to create printable form template using the :doc:`scan-form-designer-intro`.

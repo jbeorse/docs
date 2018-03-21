@@ -14,13 +14,24 @@ ODK Scan
 .. image:: /img/scan-intro/scan-process.*
   :alt: The ODK Scan Process
 
-.. _scan-intro-learn-more:
+.. _scan-intro-user-guide:
 
-Learn more about ODK Scan
+User Guide
+----------------------------
+
+.. toctree::
+  :maxdepth: 2
+
+  scan-install
+  scan-using
+
+.. _scan-intro-architect-guide:
+
+Deployment Architect Guide
 ----------------------------
 
 .. toctree::
   :maxdepth: 2
 
   scan-setup
-  scan-using
+  scan-data
