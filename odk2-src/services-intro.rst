@@ -26,5 +26,5 @@ Deployment Architect Guide
 .. toctree::
   :maxdepth: 2
 
-  services-setup
-  services-data
+  services-managing
+  services-internals

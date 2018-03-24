@@ -16,7 +16,7 @@ As well as the following third party apps:
 
   - `OI File Manager <https://play.google.com/store/apps/details?id=org.openintents.filemanager>`_
 
-.. _scan-installing:
+.. _scan-install:
 
 Installing Scan
 -----------------------

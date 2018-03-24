@@ -1,4 +1,4 @@
-ODK Scan Managing Data
+Managing ODK Scan's Data
 =========================
 
 .. _scan-data:

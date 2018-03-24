@@ -6,13 +6,13 @@ Installing ODK Services
 Prerequisites
 -------------------
 
-Before installing ODK Scan, you will need the following third party apps:
+Before installing ODK Services, you will need the following third party apps:
 
   - `OI File Manager <https://play.google.com/store/apps/details?id=org.openintents.filemanager>`_
 
 There are no other ODK Android tools that are prerequisites to installing ODK Services. However, this tool is a prerequisite for all the other ODK 2.0 Android tools.
 
-.. _services-setup-install:
+.. _services-install:
 
 Installing Services
 --------------------------------

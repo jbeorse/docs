@@ -33,5 +33,5 @@ Deployment Architect Guide
 .. toctree::
   :maxdepth: 2
 
-  scan-setup
+  scan-managing
   scan-data

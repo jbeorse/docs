@@ -7,7 +7,7 @@ Using ODK Services
 
 Initial Server Configuration
 -----------------------------------
-Before you are able to synchronize your data or application files, you will need to configure your server settings. Instructions are provided in the :ref:`deployment architect guide <services-setup-server-config>`.
+Before you are able to synchronize your data or application files, you will need to configure your server settings. Instructions are provided in the :ref:`deployment architect guide <services-managing-server-config>`.
 
 .. _services-using-change-user:
 
@@ -39,7 +39,7 @@ Within this page you can enter a new :guilabel:`username` and :guilabel:`passwor
 
 .. note::
 
-  To authenticate a new user, you must have a network connection and have the Server URL set appropriately. See the :ref:`deployment architect guide <services-setup-server-config>` for instructions on how to set this.
+  To authenticate a new user, you must have a network connection and have the Server URL set appropriately. See the :ref:`deployment architect guide <services-managing-server-config>` for instructions on how to set this.
 
 If you want to log out of your current user without logging into a new user, click the :guilabel:`Log Out` button. This does not require a network connection.
 
@@ -117,3 +117,65 @@ When you return from ODK Services and next access data, the ODK 2.0 tools will s
   - :guilabel:`Merge Changes` - Will be enabled once all conflicts in the row's data fields have been decided.
 
 Choose the desired option. Once the changes are reconciled, you can then proceed to the activity you were accessing and, when you next sync, the resolved conflicts and any new changes will be pushed up to the server. Then, other users will receive those changes when they sync to the server.
+
+.. _services-user-device-settings:
+
+Device Settings
+------------------------
+
+The device settings allow you to change configuration on your individual device. These settings will not be synchronized with the server.
+
+  1. Open Services. Press the Action Button (:guilabel:`⋮`)
+
+    .. image:: /img/services-using/services-options-settings.*
+      :alt: Services Menu Options
+      :class: device-screen-vertical
+
+  2. Select :menuselection:`Settings --> Device Settings`
+
+    .. image:: /img/services-using/services-settings.*
+      :alt: Services Settings Menu
+      :class: device-screen-vertical
+
+    .. image:: /img/services-using/services-device-settings.*
+      :alt: Device Settings
+      :class: device-screen-vertical
+
+  - :menuselection:`Default Locale` specifies your preferred localization. By default this is set to US English. If you provide translations for your Data Management Application, this is where to enable them.
+  - :menuselection:`Text Font Size` customizes the text size across the ODK 2 tools
+  - :menuselection:`Show Splash Screen` chooses whether to show a splash screen while each app launches.
+  - :menuselection:`Selected Splash Image` holds the image that will be displayed in the splash screen. By default this is an ODK logo, but can be set to your organization's own logo or another image.
+
+.. _services-user-tables-settings:
+
+Tables Settings
+------------------------
+
+The tables specific settings modify the behavior of the ODK Tables tool. These settings will not be synchronized with the server.
+
+  1. Open Services. Press the Action Button (:guilabel:`⋮`)
+
+    .. image:: /img/services-using/services-options-settings.*
+      :alt: Services Menu Options
+      :class: device-screen-vertical
+
+  2. Select :menuselection:`Settings --> Tables Settings`
+
+    .. image:: /img/services-using/services-settings.*
+      :alt: Services Settings Menu
+      :class: device-screen-vertical
+
+    .. image:: /img/services-using/services-tables-settings.*
+      :alt: Tables Settings
+      :class: device-screen-vertical
+
+  - :menuselection:`Use Custom Home Screen` chooses whether to display the :file:`index.html` file of your Data Management Application or the list of tables when ODK Tables is launched.
+
+.. _services-using-troubleshooting:
+
+Troubleshooting
+-------------------------
+
+  - If you are not seeing your forms in ODK Survey or your data tables in ODK Tables, try :ref:`services-managing-reset-config`
+  - If you are seeing a list of data tables instead of your Data Management Application home screen when you launch ODK Tables, enable the :guilabel:`Use custom home screen` option in :ref:`services-user-tables-settings`.
+  - If you are having trouble syncing, check your :ref:`services-managing-server-config`.
