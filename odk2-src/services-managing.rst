@@ -81,6 +81,10 @@ Before you are able to synchronize data or application files to a device, you wi
         :alt: Services Authenticate Credentials Prompt
         :class: device-screen-vertical
 
+      .. warning::
+
+        If you decline (by choosing to :guilabel:`Log Out`), or if your credential is rejected by the server, then your credential will be reset to the anonymous (unprivileged) user.
+
     d. On the next screen select :guilabel:`Verify User Permissions`.
 
       .. image:: /img/services-managing/services-verify-credentials.*
