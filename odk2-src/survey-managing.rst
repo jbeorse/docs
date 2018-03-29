@@ -8,7 +8,7 @@ Managing ODK Survey
 
 .. contents:: :local:
 
-.. _survey-architect-prereqs:
+.. _survey-managing-prereqs:
 
 Prerequisites
 ---------------------
@@ -28,7 +28,7 @@ As well as the third party apps:
 
 - `OI File Manager <https://play.google.com/store/apps/details?id=org.openintents.filemanager>`_
 
-If you have not installed Scan already, follow our guide for :ref:`scan-install`
+If you have not installed Survey already, follow our guide for :doc:`survey-install`
 
 .. _survey-managing-prereqs-recommended:
 
@@ -50,7 +50,7 @@ To get started creating your own Data Management Applications, go to the :doc:`a
 
 .. _survey-designing-form:
 
-Designing A Form
+Designing a Form
 --------------------
 
 Instructions for designing Survey forms are provided in the :ref:`Application Designer form design guide <app-designer-common-tasks-designing-a-form>`.

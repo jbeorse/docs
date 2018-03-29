@@ -14,13 +14,23 @@ Tables also enables web developers to build powerful *data management applicatio
 
 We have included a sample application built on top of Tables along with a handful of data tables that showcase some of its features.
 
-.. _tables-intro-learn-more:
+.. _tables-intro-user-guide:
 
-Learn more about ODK Tables
+User Guide
 -------------------------------
 
 .. toctree::
   :maxdepth: 2
 
-  tables-setup
+  tables-install
+  tables-sample-app
   tables-using
+
+Deployment Architect Guide
+-------------------------------
+
+.. toctree::
+  :maxdepth: 2
+
+  tables-managing
+  tables-internals

@@ -1,7 +1,7 @@
 ODK Services: Internal Details
 =====================================
 
-.. _services-managing-apps:
+.. _services-internal-details:
 
 .. _services-sync-detail:
 

@@ -415,7 +415,7 @@ Updating the Preloaded Data
 
 At this point, we have added the new field to the data table, but have not yet updated the initial set of *Geotagger* locations with values for that field.
 
-Return to your :file:`Application Designer` directory. Recall that when an ODK Tables application first starts up, it reads the :file:`assets/tables.init` file; that file identifies CSV files within :file:`config/assets/csv` that should be imported into the data tables upon first start-up. Read more about importing data into a table from a CSV in the :ref:`ODK Tables guide <tables-using-import-data>`.
+Return to your :file:`Application Designer` directory. Recall that when an ODK Tables application first starts up, it reads the :file:`assets/tables.init` file; that file identifies CSV files within :file:`config/assets/csv` that should be imported into the data tables upon first start-up. Read more about importing data into a table from a CSV in the :ref:`ODK Tables guide <tables-managing-import-data>`.
 
 In this example application, the file being imported is :file:`config/assets/csv/geotagger.updated.csv`. If we wanted to, we could edit this file, add a column for the new data field (:th:`Direction`), and supply values for this field for all of the data rows that form the initial set of *Geotagger* locations.
 

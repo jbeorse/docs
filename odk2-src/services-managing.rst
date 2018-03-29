@@ -26,7 +26,7 @@ Finally, you will need the third party apps:
 
 - `OI File Manager <https://play.google.com/store/apps/details?id=org.openintents.filemanager>`_
 
-If you have not installed Services already, follow our guide for :ref:`services-install`
+If you have not installed Services already, follow our guide for :doc:`services-install`
 
 .. _services-managing-servers:
 

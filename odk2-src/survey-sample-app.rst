@@ -51,7 +51,7 @@ For instructions on creating your own Survey applications, view the :ref:`app-de
 Installing the Sample Application
 --------------------------------------
 
-Unlike ODK Collect, the ODK 2.0 tools are application-focused. An application is identified by the name of the directory under the :file:`/sdcard/opendatakit/` folder. The sample application is named *default*, as are the sample applications provided for :doc:`tables-intro` and :doc:`services-intro`. This means that you can only deploy one of these sample application at a time onto a device. We also provide :ref:`instructions <survey-launching-appname>` to rename one of these so that two or more applications can co-exist and not interfere with each other on this same device.
+Unlike ODK Collect, the ODK 2.0 tools are application-focused. An application is identified by the name of the directory under the :file:`/sdcard/opendatakit/` folder. The sample application is named *default*, as is the sample applications provided for :doc:`tables-intro`. This means that you can only deploy one of these sample application at a time onto a device. We also provide :ref:`instructions <survey-launching-appname>` to rename one of these so that two or more applications can co-exist and not interfere with each other on this same device.
 
 To access the sample application and its six sample forms:
 
@@ -69,7 +69,7 @@ To access the sample application and its six sample forms:
 
         The server URL starts with :file:`https://` not :file:`http://`. Don't forget to include the *s*.
 
-    - Leave your authentication as :guilabel:`anonymous`.
+    - Leave your authentication as :guilabel:`None (anonymous access)`.
 
   3. Back out until you return to Survey.
   4. Follow the :ref:`services-using-sync` instructions (see :ref:`launching from Survey <services-using-sync-launch-other>`).
