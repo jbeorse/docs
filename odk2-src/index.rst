@@ -62,7 +62,7 @@ First see the sections for :doc:`survey-intro`, :doc:`tables-intro`, and :doc:`s
 
 Next, see the :doc:`getting-started-2-user` and :doc:`getting-started-2-architect` to understand the process for revising and developing your own forms. That guide will walk you through modifying the Geotagger demo app to add a new field to it.
 
-Finally, see the :doc:`data-permission-filters` page for how to manage table and row-level access filters.
+Finally, after building your own applications, review the :doc:`advanced-topics-architect` sections to learn more about implementing more complex features, such as internationalization and row level access filtering.
 
 
 .. toctree::

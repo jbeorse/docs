@@ -6,4 +6,6 @@ Platform Developer Advanced Topics
 .. toctree::
   :maxdepth: 2
 
+  survey-form-processing
+  formdef-structure
   odk-2-sync-protocol

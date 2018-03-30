@@ -7,4 +7,9 @@ Deployment Architect Advanced Topics
   :maxdepth: 2
 
   data-permission-filters
-  odk-2-framework
+  internationalization
+  config-file-structure
+  injected-interfaces
+  tables-web-pages
+  survey-controller-actions
+
