@@ -447,6 +447,6 @@ As mentioned earlier, this file is never uploaded to the server. After you have 
 Launching With a Different AppName
 ----------------------------------------
 
-The ODK 2.0 tools are designed to support multiple independent Data Management Applications running on the Android device. Each of our tools has the ability to run in the context of either a default application name, or a specified application name.
+The ODK 2 tools are designed to support multiple independent Data Management Applications running on the Android device. Each of our tools has the ability to run in the context of either a default application name, or a specified application name.
 
 For further details on how to launch multiple AppNames and create your own new AppNames, see Survey's guide to :ref:`survey-launching-appname`.

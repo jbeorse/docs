@@ -35,7 +35,7 @@ Compatible Servers
 
 The latest version of ODK Services is Version 2.0.3 (February 2018).
 
-To synchronize data with the latest version of ODK Service requires a :doc:`cloud-endpoints-intro`. ODK Aggregate v1.4.15 or Sync Endpoint 2.0.3 will work. It will not work with earlier versions of ODK Aggregate. See :doc:`sync-endpoint` or :doc:`aggregate-tables-extension` for further information on how to configure the server to accept ODK 2.0 synchronization requests.
+To synchronize data with the latest version of ODK Service requires a :doc:`cloud-endpoints-intro`. ODK Aggregate v1.4.15 or Sync Endpoint 2.0.3 will work. It will not work with earlier versions of ODK Aggregate. See :doc:`sync-endpoint` or :doc:`aggregate-tables-extension` for further information on how to configure the server to accept ODK 2 synchronization requests.
 
 
 .. _services-managing-server-config:

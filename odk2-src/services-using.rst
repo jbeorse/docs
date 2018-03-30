@@ -118,7 +118,7 @@ Services will contact the Cloud Endpoint and synchronize your data. A progress d
 Resolving Sync Conflicts
 ---------------------------------------
 
-When you return from ODK Services and next access data, the ODK 2.0 tools will scan all tables looking for conflicts arising from the synchronization process. If any conflicts are found, you are required to resolve the conflict before proceeding to your activity. The options for resolving conflicts are as follows.
+When you return from ODK Services and next access data, the ODK 2 tools will scan all tables looking for conflicts arising from the synchronization process. If any conflicts are found, you are required to resolve the conflict before proceeding to your activity. The options for resolving conflicts are as follows.
 
   - :guilabel:`Take Local Version` - Use the version on the device, deleting the server version.
   - :guilabel:`Take Server Version` - Use the server version, deleting the version that is on the device.

@@ -26,6 +26,8 @@ User Guide
   tables-sample-app
   tables-using
 
+.. _tables-intro-architect-guide:
+
 Deployment Architect Guide
 -------------------------------
 

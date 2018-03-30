@@ -5,7 +5,7 @@ ODK Scan
 
 .. warning::
 
-  ODK Scan is not yet fully released! It is not guaranteed to work at the same quality level as ODK Survey, Tables, Services, or the rest of the release ODK 2.0 tools.
+  ODK Scan is not yet fully released! It is not guaranteed to work at the same quality level as ODK Survey, Tables, Services, or the rest of the release ODK 2 tools.
 
   It is currently at the **Release Candidate** stage, which mean does not have support for deployments, but the ODK core team does guarantee a migration path (possibly with many tedious manual steps) into future releases.
 

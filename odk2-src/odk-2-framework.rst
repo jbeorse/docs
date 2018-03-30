@@ -1,9 +1,9 @@
-ODK 2.0 Framework
+ODK 2 Framework
 ======================
 
 .. _odk-2-framework:
 
-The ODK 2.0 Tool Suite is a platform and exposes a variety of interfaces for you to build your data management applications on top of. For a description of these interfaces, as well as the inner working of how ODK processes this information and implements your application, read the `full description on our wiki <https://github.com/opendatakit/opendatakit/wiki/Tool-Suite-Javascript-framework-and-formDef.json-(Survey)-format>`_. The main points addressed in this document include:
+The ODK 2 Tool Suite is a platform and exposes a variety of interfaces for you to build your data management applications on top of. For a description of these interfaces, as well as the inner working of how ODK processes this information and implements your application, read the `full description on our wiki <https://github.com/opendatakit/opendatakit/wiki/Tool-Suite-Javascript-framework-and-formDef.json-(Survey)-format>`_. The main points addressed in this document include:
 
   - JavaScript Structure describes the form that ODK expects your data management applications to take and how ODK exposes functionality to them.
 
