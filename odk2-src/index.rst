@@ -74,6 +74,15 @@ Finally, see the :doc:`data-permission-filters` page for how to manage table and
 .. toctree::
   :maxdepth: 2
   :hidden:
+  :caption: Reference Applications
+
+  hope-study-intro
+  episample-intro
+  cold-chain-intro
+
+.. toctree::
+  :maxdepth: 2
+  :hidden:
   :caption: Advanced Topics
 
   data-permission-filters
